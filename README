@@ -1,0 +1,20 @@
+This is a program for generating Mondrian-style pictures; it also
+happens to function as a (terrible) clock.
+
+The time is displayed as follows:
+  Hours mod 6:  # red squares * # black squares
+  Minutes / 10: # blue squares * # yellow squares
+
+Seriously, don't try to use this as your only clock.
+
+To compile, just run 
+
+  ocamlbuild clock.native
+
+Then run
+
+  ./clock.native
+
+Press 'q' to quit, 'r' to regenerate the picture.
+
+<3 <3
